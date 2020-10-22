@@ -1,0 +1,34 @@
+
+.asonry-g {
+  max-width: 100%;
+  width: 100%;
+}
+
+.container-galary{
+  /* padding: 1em; */
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+  column-count: 6;
+}
+
+.masonry {
+  /* margin-bottom: 1em; */
+  margin: 0;
+  padding: 0;
+  
+  display: inline-block;
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .container-galary { column-count: 3; }
+}
+
+@media screen and (max-width: 768px) {
+  .container-galary { column-count: 2; }
+}
+
+@media screen and (max-width: 576px) {
+  .container-galary { column-count: 1; }
+}
