@@ -1,2 +1,2 @@
 # Muhammadislom.github.io
-My sayt
+github pages
