@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Protected Area"
+AuthUserFile /home/p/podkopaev/podkopaev.beget.tech/public_html/opisanie/.htpasswd
+Require valid-user

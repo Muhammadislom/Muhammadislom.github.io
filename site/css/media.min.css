@@ -1,0 +1,473 @@
+@media (min-width: 576px) {
+  .container {
+    width: 540px
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 730px
+  }
+}
+
+@media (min-width: 991px) {
+  .container {
+    width: 950px
+  }
+
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1172px
+  }
+
+
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .logo {
+    width: 200px
+  }
+
+  .nav__bar .nav__item {
+    margin-right: 15px
+  }
+
+  .nav__bar .nav__link {
+    font-size: 20px
+  }
+}
+
+@media (max-width: 1080px) {
+  .slider-info__title h1 {
+    font-size: 40px
+  }
+
+  .slider-info__text p {
+    font-size: 19px
+  }
+}
+
+@media (max-width: 991px) {
+  .nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 320px;
+    background-color: #fff;
+    -webkit-transition: .4s ease-in;
+    -o-transition: .4s ease-in;
+    transition: .4s ease-in;
+    -webkit-transform: translateX(130%);
+    -ms-transform: translateX(130%);
+    transform: translateX(130%);
+    z-index: 2
+  }
+
+  .nav.nav-active {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0)
+  }
+
+  .nav__bar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 50px
+  }
+
+  .nav__bar .nav__item {
+    margin-right: 0;
+    margin: 25px 0
+  }
+
+  .burger-menu {
+    display: block
+  }
+
+  .nav-overlay {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    right: 0
+  }
+
+  .slider-info__title h1 {
+    font-size: 30px
+  }
+
+  .slider-info__text p {
+    font-size: 16px
+  }
+
+  .slider-info__link a {
+    margin-top: 15px;
+    margin-bottom: 15px
+  }
+
+  .main-block .main-block__box {
+    background-color: #303135;
+    p-webkit-box-flex: 1;
+    -webkit-flex: 1 0 50%;
+    -ms-flex: 1 0 50%;
+    flex: 1 0 50%;
+    margin-bottom: 15px
+  }
+
+  .map {
+    margin-top: 50px
+  }
+
+  .systemContromContent:before {
+    right: -16px;
+    top: 13px;
+  }
+  .systemControm::before {
+    right: 0;
+    bottom: 0;
+    height: 500px;
+    width: 500px;
+  }
+
+  .systemContromContentTitle span{
+    font-size: 24px;
+    max-width: 750px;
+  }
+  .systemContromContentSubtitle{
+    margin-top: 20px;
+  }
+  .systemContromContentSubtitle span{
+    font-size: 14px;
+  }
+  .systemContromContentOrganization{
+    padding: 20px 0 20px 0;
+    margin-top: 20px;
+  }
+  .systemContromContentOrganization span{
+    font-size: 20px;
+    max-width: 600px;
+    line-height: 25px;
+  }
+  .systemContromContentOrganizationTexe{
+    padding: 40px 0 30px 0;
+  }
+  .systemContromContentOrganizationTexe span:first-child{
+    font-size: 21px;
+    max-width: 550px;
+    line-height: 28px;
+  }
+  .systemContromContentOrganizationTexe span:last-child{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    font-size: 21px;
+    max-width: 450px;
+    line-height: 28px;
+  }
+  
+  .OrganizationProcessContetnTitle span{
+    font-size: 24px;
+    max-width: 750px;
+  }
+
+  .comanda{
+    padding-bottom: 50px;
+  }
+  .comandaContentTitle span{
+    font-size: 24px;
+  }
+  .comandaContents ul>li:first-child {
+    margin-top: 20px;
+  }
+  .comandaContents ul  li span{
+    display: inline-block;
+    text-align: right;
+    font-size: 17px;
+  }
+  .comandaContents{
+    flex-direction: column;
+    align-items: left;
+  }
+  .comandaContents ul li{
+    text-align: right;
+    margin-left: 0 !important;
+  }
+  .listDocTitle span{
+    font-size: 24px;
+  }
+  .listDocList, .listDocSubText{
+    flex-direction: column;
+    align-items: center;
+  }
+  .listDocSubText span:last-child{
+    margin-top: 22px;
+  }
+  .listDocList ul li span{
+    font-size: 15px;
+  }
+  .listDocSubText span{
+    font-size: 15px;
+  }
+  .comandaContents ul>li:first-child span{
+    color: #000;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-slider {
+    background: center no-repeat
+  }
+
+  .header-fixed {
+    background-color: transparent
+  }
+
+  .burger-menu__btn {
+    background-color: #fff
+  }
+
+  .burger-menu__btn::after,
+  .burger-menu__btn::before {
+    background-color: #fff
+  }
+
+  .burger-menu__btn.burger-active::before,
+  .burger-menu__btn.burger-active::after {
+    background-color: #000
+  }
+
+  .header-fixed.scroll {
+    background: rgba(0, 0, 0, 0.8)
+  }
+
+  .main-slider {
+    height: 100vh
+  }
+
+  .main-slider .item {
+    height: 100vh
+  }
+
+  .main-slider .item img {
+    height: 100vh
+  }
+
+  .main-slider .owl-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+  }
+
+  .logo {
+    width: 150px
+  }
+
+  .logo span {
+    display: none
+  }
+
+  .main-block .main-block__box {
+    background-color: #303135;
+    p-webkit-box-flex: 1;
+    -webkit-flex: 1 0 100%;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%
+  }
+
+  .systemContromContent:before {
+    right: -16px;
+    top: 13px;
+    display: none;
+  }
+  .systemControm::before {
+    right: 0;
+    bottom: 0;
+    height: 330px;
+    width: 330px;
+  }
+  .systemContromContentOval{
+    display: none;
+  }
+  .systemControm::after{
+    height: 35px;
+  }
+
+  .systemContromContentTitle span{
+    font-size: 18px;
+    max-width: 450px;
+  }
+  .systemContromContentTitle br{
+    display: none;
+  }
+  .systemContromContentSubtitle{
+    margin-top: 20px;
+  }
+  .systemContromContentSubtitle span{
+    font-size: 13px;
+  }
+  .systemContromContentOrganization{
+    padding: 20px 0 20px 0;
+    margin-top: 20px;
+  }
+  .systemContromContentOrganization span{
+    font-size: 18px;
+    max-width: 600px;
+    line-height: 25px;
+  }
+  .systemContromContentOrganizationTexe{
+    padding: 30px 0 30px 0;
+  }
+  .systemContromContentOrganizationTexe span:first-child{
+    font-size: 18px;
+    max-width: 550px;
+    line-height: 28px;
+  }
+  .systemContromContentOrganizationTexe span:last-child{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    font-size: 19px;
+    max-width: 450px;
+    line-height: 28px;
+  }
+  .OrganizationProcessContetnText{
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .OrganizationProcessContetnText span{
+    font-size: 15px;
+  }
+  .OrganizationProcessContetnText span:last-child{
+    margin-top: 30px;
+  }
+  .OrganizationProcessContetnTitle span{
+    font-size: 18px;
+    max-width: 450px;
+  }
+  .comandaContentTitle span{
+    font-size: 18px;
+  }
+  .listDocTitle span{
+    font-size: 18px;
+  }
+  .professionalAutorContent{
+    flex-direction: column;
+  }
+  .professionalAutorContentItem{
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .professionalAutorContentItem span{
+    max-width: none;
+    text-align: center;
+    font-size: 14px;
+  }
+  .professionalAutorContentBottom{
+    margin-top: 20px;
+  }
+  .professionalAutorContentBottom span{
+    font-size: 14px;
+  }
+  .map{
+    display: none;
+  }
+  .mapImg{
+    display: block !important;
+    width: 100%;
+  }
+  .mapImg img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav {
+    width: auto
+  }
+
+  .logo {
+    width: auto
+  }
+
+  .slider-info__title h1 {
+    font-size: 30px
+  }
+
+  .slider-info__text p {
+    font-size: 12px
+  }
+
+  .slider-info__link a {
+    margin-bottom: 0
+  }
+  .systemControm::before {
+    right: 0;
+    bottom: 0;
+    height: 230px;
+    width: 230px;
+  }
+  .systemContromContentOval{
+    display: none;
+  }
+  .systemControm::after{
+    height: 35px;
+  }
+
+  .systemContromContentTitle span{
+    font-size: 17px;
+    max-width: 450px;
+  }
+  .systemContromContentSubtitle{
+    margin-top: 20px;
+  }
+  .systemContromContentSubtitle span{
+    font-size: 12px;
+  }
+  .systemContromContentOrganization{
+    padding: 15px 0 15px 0;
+    margin-top: 20px;
+  }
+  .systemContromContentOrganization span{
+    font-size: 17px;
+    max-width: 600px;
+    line-height: 23px;
+  }
+  .systemContromContentOrganizationTexe{
+    padding: 28px 0 28px 0;
+  }
+  .systemContromContentOrganizationTexe span:first-child{
+    font-size: 17px;
+    max-width: 550px;
+    line-height: 25px;
+  }
+  .systemContromContentOrganizationTexe span:last-child{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size: 17px;
+    max-width: 450px;
+    line-height: 25px;
+  }
+  .OrganizationProcessContetnTitle span{
+    font-size: 17px;
+    max-width: 450px;
+  }
+}
