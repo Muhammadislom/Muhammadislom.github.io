@@ -75,7 +75,7 @@ a {
   text-align: center;
   max-width: 650px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .headerLeft span{
@@ -84,12 +84,6 @@ a {
 
 .headerRight span{
   color: #000000;
-}
-.headerRight a{
-  margin-top: 40px;
-}
-.headerLeft a{
-  margin-top: 20px;
 }
 .buttonIfoLink {
   position: relative;

@@ -516,6 +516,13 @@ p {
 .systemContromContentOrganizationTexe {
   background-color: #2f2f2f;
   padding: 40px 0 30px 0;
+  transition: .2s;
+}
+.systemContromContentOrganizationTexe:hover{
+  transition: .2s;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(47,47,47,1);
+-moz-box-shadow: 0px 0px 12px 0px rgba(47,47,47,1);
+box-shadow: 0px 0px 12px 0px rgba(47,47,47,1);
 }
 
 .systemContromContentOrganizationTexe span:first-child {
