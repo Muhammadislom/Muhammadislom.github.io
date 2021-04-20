@@ -677,9 +677,23 @@ box-shadow: 0px 0px 12px 0px rgba(47,47,47,1);
 .listDoc {
   /* background-color: #323232; */
   padding: 35px 0;
+  position: relative;
 }
-
-
+.listDoc:before{
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 1;
+}
+.listDocTitle{
+  position: relative;
+  z-index: 2;
+}
 .listDocTitle span {
   text-transform: uppercase;
   color: #fff;
@@ -726,6 +740,8 @@ box-shadow: 0px 0px 12px 0px rgba(47,47,47,1);
 
 .listDocContent {
   margin-top: 50px;
+  position: relative;
+  z-index: 2;
 }
 .professionalAutor{
   padding-bottom: 20px;
