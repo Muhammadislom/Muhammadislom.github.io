@@ -76,6 +76,7 @@ a {
   max-width: 650px;
   display: flex;
   align-items: center;
+  font-size: 18px;
 }
 
 .headerLeft span{
