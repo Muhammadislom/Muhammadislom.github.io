@@ -747,15 +747,15 @@ p {
 .professionalAutorContentItem{
   background-color: #000;
   text-align: center;
-  padding: 30px 10px;
+  padding: 30px 15px;
   display: flex;
   align-items: center;
 }
 .professionalAutorContentItem span{
   color: #ffffff;
-  max-width: 200px;
+  max-width: 240px;
   display: block;
-  font-size: 18px;
+  font-size: 20px;
 }
 .professionalAutorContentBottom{
   margin-top: 90px;
