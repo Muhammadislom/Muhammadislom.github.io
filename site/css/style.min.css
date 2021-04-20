@@ -363,8 +363,8 @@ p {
 
 .main-block .main-block__box .main-block__item .main-block__item-text {
   text-align: center;
-  font-size: 30px;
-  max-height: 170px;
+  font-size: 20px;
+  /* max-height: 170px; */
   overflow: hidden
 }
 
