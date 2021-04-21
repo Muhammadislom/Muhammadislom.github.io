@@ -397,6 +397,7 @@
   .mapImg img {
     width: 100%;
   }
+
 }
 
 @media (max-width: 576px) {
@@ -469,5 +470,13 @@
   .OrganizationProcessContetnTitle span{
     font-size: 17px;
     max-width: 450px;
+  }
+  .headerLeft span{
+    padding: 0 !important;
+    font-size: 12px;
+  }
+  .headerRight span{
+    padding: 0 !important;
+    font-size: 12px;
   }
 }
